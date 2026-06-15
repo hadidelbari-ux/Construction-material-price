@@ -14,5 +14,7 @@ data = {
 "chat_id": CHAT_ID,
 
 "تست اولیه": text
+import os
 
+print("TOKEN:", os.environ.get("BOT_TOKEN"))
 }
